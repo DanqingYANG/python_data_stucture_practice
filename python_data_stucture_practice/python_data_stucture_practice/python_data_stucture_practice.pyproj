@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e17bacce-9e3c-4d52-b321-b8ffb8abe069</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>python_data_stucture_practice.py</StartupFile>
+    <StartupFile>practise_reverse_a_string.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="practise_reverse_a_string.py" />
     <Compile Include="python_data_stucture_practice.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
