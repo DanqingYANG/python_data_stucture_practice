@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e17bacce-9e3c-4d52-b321-b8ffb8abe069</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practise_reverse_a_string.py</StartupFile>
+    <StartupFile>python_data_stucture_practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,32 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="practise_reverse_a_string.py" />
+    <Compile Include="algorithm_Hanoi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="aTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graph.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="patest_1001 easy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practise_reverse_a_string_stack.py" />
     <Compile Include="python_data_stucture_practice.py" />
+    <Compile Include="python_map.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="radix_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="search and sorting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizing_recursion.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
